@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b61b7fcc-6b51-41b2-a34c-cd5b1a5c4bc4" name="Default Changelist" comment="" />
+    <list default="true" id="dd60930a-ec24-4783-88be-ee18662a8255" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/intro-mern.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro-mern-frontend/src/Products/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/intro-mern-frontend/src/Products/services/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +21,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1xuxiAhf3rj5QBTefKAP8aeUL7V" />
+  <component name="ProjectId" id="1yYd5vM6Z6Qm9d2RwbMha1ttOqi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,12 +34,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b61b7fcc-6b51-41b2-a34c-cd5b1a5c4bc4" name="Default Changelist" comment="" />
-      <created>1631218908576</created>
+      <changelist id="dd60930a-ec24-4783-88be-ee18662a8255" name="Default Changelist" comment="" />
+      <created>1632432290709</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1631218908576</updated>
-      <workItem from="1631218915750" duration="18000" />
+      <updated>1632432290709</updated>
+      <workItem from="1632432298673" duration="20000" />
     </task>
     <servers />
   </component>

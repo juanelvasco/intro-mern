@@ -20,11 +20,15 @@ const ListProducts = () => {
 
         loadProducts()
     }, [])
-    
+    if (isLoading){
+        return   <Loading />
+    }    
+    if (!products.length){
+        return <h3 className="title has-text-centered">No hay productos, agrega uno dando click en el botón</h3>
+    }
     return(
-    isLoading
-    ? <Loading />
-    : 'Mostrar listado'
+    
+     'Mostrar listado'
     )
 }
 
