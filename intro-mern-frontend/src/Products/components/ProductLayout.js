@@ -13,14 +13,14 @@ const ProductLayout = () => {
     <>
         <Header title="Products app" />
         <AddButton onClick={() => setIsModalOpen(true)}></AddButton>
-        <ListProducts/>
-        <Modal show={isModalOpen} onClose={() => setIsModalOpen(false)}>
+        <ListProducts />
+        <Modal show={ isModalOpen }  onClose={() => setIsModalOpen(false)}>
             <Modal.Card>
-                <Modal.Card.Head showClose= {false}>
+                <Modal.Card.Header showClose= {false}>
                     <Modal.Card.Title>
                         Add Product
                     </Modal.Card.Title>
-                </Modal.Card.Head>
+                </Modal.Card.Header>
                 <Modal.Card.Body>
                     <Form />
                 </Modal.Card.Body>

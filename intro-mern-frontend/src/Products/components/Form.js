@@ -76,7 +76,7 @@ const Form = () => {
             </Control>
         </Field>
         <Button type="submit" color="primary">Save</Button>
-      <form/>
+      </form>
     )    
 }
 
