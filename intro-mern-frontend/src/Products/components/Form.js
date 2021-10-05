@@ -23,7 +23,8 @@ const Form = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         console.log(formValues)
-        console.log(inputFileRef.current.files)
+       // console.log(inputFileRef.current.files)
+       console.log(inputFileRef)
     }
     return (
         <form onSubmit={handleSubmit}>
@@ -72,7 +73,7 @@ const Form = () => {
         <Field>
             <Label>Image</Label>
             <Control>
-                <Input type= "file" ref={inputFileRef}/>
+                 <Input type= "file" ref={inputFileRef}/>
             </Control>
         </Field>
         <Button type="submit" color="primary">Save</Button>
