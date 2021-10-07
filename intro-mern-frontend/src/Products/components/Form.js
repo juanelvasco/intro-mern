@@ -13,28 +13,28 @@ const Form = () => {
 
     const inputFileRef = useRef()
 
-    const handleCHange = (event) => {
+    const handleChange = (event) => {
         const { name, value } = event.target
         console.log(name, value)
 
         setFormValues({ ...formValues, [name]: value})
     }
 
-    const handleSubmit = (e) => {
+    const _handleSubmit = (e) => {
         e.preventDefault()
         console.log(formValues)
-       // console.log(inputFileRef.current.files)
-       console.log(inputFileRef)
+        console.log(inputFileRef.current.files)
+     
     }
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={_handleSubmit}>
         <Field>
             <Label>Name</Label>
             <Control>
                 <Input placeholder= "Text input" 
                 name="name"
                 value={formValues.name}
-                onChange={handleCHange}
+                onChange={handleChange}
                 />
             </Control>
         </Field>
@@ -45,7 +45,7 @@ const Form = () => {
                 name="size"
                 type="number"
                 value={formValues.size}
-                onChange={handleCHange}
+                onChange={handleChange}
                 />
             </Control>
         </Field>
@@ -56,7 +56,7 @@ const Form = () => {
                 name="priceUnitary"
                 type="number"
                 value={formValues.priceUnitary}
-                onChange={handleCHange}
+                onChange={handleChange}
                 />
             </Control>
         </Field>
@@ -66,7 +66,7 @@ const Form = () => {
                 <Input placeholder= "Text input" 
                 name="description"
                 value={formValues.description}
-                onChange={handleCHange}
+                onChange={handleChange}
                 />
             </Control>
         </Field>
